@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="https://kit.fontawesome.com/d7d291c812.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="Images/logo.png" alt="" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler d-l bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse gap-5" id="navbarNav">
+                <div class="navbar-nav gap-3 align-items-center">
+
+                    <a class="nav-link fw-bolder nav-items-font-size" aria-current="page" href="#"> الاستثمار</a>
+                    <i class="nav-link nav-items-font-size fw-bolder dropdown-toggle fa-xl"></i>
+
+                    <a class="nav-link fw-bolder nav-items-font-size mr-5" aria-current="page" href="#"> التداول</a>
+                    <i class="nav-link nav-items-font-size fw-bolder dropdown-toggle fa-xl"></i>
+
+                    <a class="nav-link fw-bolder nav-items-font-size" aria-current="page" href="#">التمويل</a>
+                    <i class="nav-link nav-items-font-size fw-bolder dropdown-toggle fa-xl"></i>
+
+                    <a class="nav-link fw-bolder nav-items-font-size" aria-current="page" href="#">دراية سمارت</a>
+                    <!-- <i class="nav-link nav-item-font-size fw-bolder dropdown-toggle"></i> -->
+
+                    <a class="nav-link fw-bolder nav-items-font-size" aria-current="page" href="#">الاخبار والمقالات</a>
+                    <i class="nav-link nav-items-font-size fw-bolder dropdown-toggle fa-xl"></i>
+
+                    <a class="nav-link fw-bolder nav-items-font-size" aria-current="page" href="#"> عن دراية</a>
+                    <i class="nav-link nav-items-font-size fa-solid fa-magnifying-glass  ml-5"></i>
+
+                    <i onClick="switchToPurple()" class="fa-solid fa-circle fa-2xl" style="color: #510B76;"></i>
+                    <i onClick="switchToGreen()" class="fa-solid fa-circle fa-2xl" style="color: #0B760F;"></i>
+                </div>
+                <div class="btns d-flex gap-2">
+                    <button class="btn btn-outline-success my-2 my-sm-0 button-glow " type="submit">فتح حساب جديد</button>
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">تسجيل دخول</button>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section id="container-id" class="theme-color">
+        <div class="container ms-0">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <i class="fa-solid fa-house p-md-2" style="color:#ffffff"></i>
+                    <i class="vr bg-warning border border-light"></i>
+                    <p class="small-paragraph-font d-inline-block p-md-2" style="font-weight:bold; margin-right:12px">الاستثمار</p>
+                    <i class="vr bg-warning border border-light"></i>
+                    <p class="small-paragraph-font d-inline-block p-md-2" style="font-weight:bold; margin-right:12px">ﺳﻮﺑﺮ ﻣﺎرﻛﺖ اﻟﺼﻨﺎدﻳﻖ اﻟﺎﺳﺘﺜﻤﺎرﻳﺔ</p>
+                    <h2 class="big-header-font-w w-75 d-inline-block">ﺳﻮﺑﺮ ﻣﺎرﻛﺖ اﻟﺼﻨﺎدﻳﻖ اﻟﺎﺳﺘﺜﻤﺎرية<i class="fa-solid fa-circle p-md-4" style="color: #f58026; font-size: large;  vertical-align: middle;"></i></h2>
+                    <h4 class="sub-header-font-w w-75">ﻓــﺈن اﻟﺘﻤﻮﻳـﻞ اﻟﻤﺠﺎﻧـﻲ ﺳـﻴﻜﻮن ﻣـﻦ أﻓﻀـﻞ اﻟﺤﻠــﻮل اﻟﺘﻤﻮﻳﻠﻴــﺔ اﻟﻤﺘﺎﺣــﺔ ﻟﻠﺴــﻮق اﻟﺴــﻌﻮدي.</h4>
+                </div>
+                <div class="col-md-6 col-sm-12 p-0">
+                    <div class="container-img">
+                        <img class="border-adjustment img-fluid image-style" src="Images/theme-pic.png" alt="container image">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="container" style="margin-bottom: 200px;">
+        <div class="row align-items-center">
+            <div class="col-md-6 col-sm-12 mx-auto d-flex justify-content-md-center">
+                <div class="section-img">
+                    <img class="img-fluid drop-shadow-img" src="Images/section-image.png" alt="">
+                    <div class="custom-shadow"></div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+                <h3 class="big-header-font-b w-75" style="font-size: 52px;">ﻧﺒﺬة ﻋﻦ ﺻﻨﺪوق دﺭﺍﻳﺔ اﻟﺨﻠﻴﺠﻲ ﻟﺄﺳﻬﻢ اﻟﻨﻤﻮ وﺍﻟﺪﺧﻞ</h3>
+                <p id="p-300" class="small-paragraph-font w-75" style="color:#41404D;">ﺻﻨﺪﻮﻗ دﺭﺍﻳﺔ رﻳﺖ ﻋﺒﺎرﺔ ﻋﻦ ﺻﻨﺪﻮﻗ اﺳﺘﺜﻤﺎر ﻋﻘﺎﺮﻳ ﻣﺘﺪاﻮﻟ ﻣﻘﻔﻞ وﻣﺘﻮاﻓﻖ ﻣﻊ اﻟﻀﻮاﺑﻂ اﻟﺸﺮﻋﻴﺔ “اﻟﺼﻨﺪﻮﻗ”. ﻳﻬﺪف اﻟﺼﻨﺪﻮﻗ إﻟﻰ ﺗﺤﻘﻴﻖ دﺧﻞ ﻋﻠﻰ رﺄﺳ ﻣﺎل اﻟﻤﺴﺘﺜﻤﺮﻳﻦ ﻣﻦ ﺧﻠﺎل اﻟﺎﺳﺘﺜﻤﺎر ﻓﻲ ﻣﺠﻤﻮﻋﺔ ﻣﻦ اﻟﻔﺮص اﻟﻌﻘﺎرﻳﺔ اﻟﻤﺪرﺔ ﻟﻠﺪﺧﻞ ﺑﺤﺴﺐ اﻟﺎﺳﺘﺮاﺟﻴﺔ اﻟﻤﺬﻛﻮرﺔ ﻓﻲ ﺷﺮﻮﻃ
+                    وﺃﺣﻜﺎم اﻟﺼﻨﺪﻮﻗ، وﺍﻟﻠﻮاﺋﺢ وﺍﻟﻘﻮاﻧﻴﻦ. ﻳﻮﺰﻋ اﻟﺼﻨﺪﻮﻗ اﺭﺑﺎح ﺑﺸﻜﻞ رﺑﻌﻲ ﺑﻤﺎ ﻟﺎ ﻳﻘﻞ ﻋﻦ (90%) ﻣﻦ ﺻﺎﻓﻲ اﻟﺄرﺑﺎح ﻟﺤﻤﻠﺔ اﻟﻮﺣﺪﺎﺗ. اﻟﺼﻨﺪﻮﻗ ﻳﻌﻤﻞ وﻓﻘﺎ ﻟﺄﻧﻈﻤﺔ ﺻﻨﺎدﻳﻖ اﻟﺎﺳﺘﺜﻤﺎر اﻟﻌﻘﺎﺮﻳ، وﺗﻌﻠﻴﻤﺎت ﺻﻨﺎدﻳﻖ اﻟﺎﺳﺘﺜﻤﺎر اﻟﻌﻘﺎرﻳﺔ اﻟﻤﺘﺪاﻭﻟﺔ اﻟﺼﺎدﺭﺔ ﻣﻦ ﻫﻴﺌﺔ ﺳﻮق
+                    اﻟﻤﺎﻟﻴﺔ.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="row justify-content-center gap-0">
+            <div class="col-md-3">
+                <div class="card text-center" style="width:278px; height:189px">
+                    <div class="card-body p-0" style="background-color: #FAFAFA;">
+                        <p id="card-theme-color-1" class="small-paragraph-font card-border-top fw-bold" style="font-size: 24px;">الحد الأدنى للاشتراك</p>
+                    </div>
+                    <div class="card-footer border-0 bg-light m-0 p-0">
+                        <p class="card-text small-paragraph-font-b fw-bold">5,000 ريال سعودي.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-3">
+                <div class="card text-center" style="width:278px; height:189px">
+                    <div class="card-body p-0" style="background-color: #FAFAFA;">
+                        <p id="card-theme-color-2" class="small-paragraph-font card-border-top fw-bold" style="font-size: 24px;">التقييم</p>
+                    </div>
+                    <div class="card-footer border-0 bg-light m-0 p-0">
+                        <p class="p-0 m-0 card-body small-paragraph-font-b fw-bold">يومي الإثنين والخميس (والتي تكون أيام عمل من كل أسبوع)
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-3">
+                <div class="card text-center" style="width:278px; height:189px">
+                    <div class="card-body p-0" style="background-color: #FAFAFA;">
+                        <p id="card-theme-color-3" class="small-paragraph-font card-border-top fw-bold" style="font-size: 24px;">درجة المخاطر</p>
+                    </div>
+                    <div class="card-footer border-0 bg-light m-0 p-0 ">
+                        <p class="small-paragraph-font-b fw-bold ">مرتفع</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container">
+
+        <div class="row justify-content-center text-center">
+            <div class="col-md-7">
+                <h2 class="big-header-font-b" style="font-size:40px">المزايا و الفوائد</h2>
+                <p class="small-paragraph-font-gray">من خلال هذه الخدمة تنيح شركة دراية المالية للعميل الاستثمار في مجموعة واسعة من الصناديق الاستثمارية (ما يقارب (60) سنين صندوق استثماري), تدار هذه الصناديق من قبل (10) عشرة مدراء مختلفين.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container">
+        <div class="row">
+            <div class="col-md-12 d-flex justify-content-center">
+                <div class="cards-shadow-wrapper"></div>
+            </div>
+        </div>
+        <div class="row mb-5 justify-content-center gap-5" id="row-1">
+            <div id="mypopup" class="mypopup is-hidden">
+                <div class="mypopup-content">
+                    <span id="closepopup" class="Close">&times;</span>
+                    <h2 id="modal-title"></h2>
+                    <p id="modal-paragraph"></p>
+                    <button id="close-btn" class="btn theme-color text-white close-btn">Close</button>
+                </div>
+            </div>
+            <!-- <div class="col-md-4">
+          <div class="card border-light card-box-styling">
+            <div class="card-header border-0 bg-white">
+              <i class="fa-regular fa-star fa-2xl icon-border"></i>
+            </div>
+            <div class="card-body  bg-white " style="background-color: #FAFAFA;">
+              <h5 class="card-title fw-bold mb-4">اﻟﺄﻓﻀﻞ ﻣﺸﻮرة</h5>
+              <p class="small-paragraph-font-gray card-text">بالإضافة إلى استظلايتن في دراية. فقد طورن
+                العديد من الايات الحضرية التي تساعد.
+                المستتمر على تكوين محافظ متلوعة وعلى
+                انتقاء المنتجات الأفضل.</p>
+            </div>
+          </div>
+
+          
+        </div>
+
+        <div class="col-md-4">
+          <div class="card border-light card-box-styling">
+            <div class="card-header border-0 bg-white">
+              <i class="fa-regular fa-face-smile fa-2xl icon-border"></i>
+            </div>
+            <div class="card-body  bg-white " style="background-color: #FAFAFA;">
+              <h5 class="card-title fw-bold mb-4">الأكثر راحة
+              </h5>
+              <p class="small-paragraph-font-gray card-text">
+                لن تحتاج إلى فتح حسابات متعددة؛ أو حفظ أسماء دخول مختلفة لأن دراية تتيح لك الاستثمار
+                في كافة المنتجات الاستثمارية من مكان واحد، بل أصبح بإمكانك متابعة كل استثماراتك وإدارتها عبر موقع واحد وحساب واحد.</p>
+            </div>
+          </div>
+
+          
+        </div>
+
+        <div class="col-md-4">
+          <div class="card border-light card-box-styling">
+            <div class="card-header border-0 bg-white">
+              <i class="fa-solid fa-layer-group fa-2xl icon-border"></i>
+            </div>
+            <div class="card-body  bg-white " style="background-color: #FAFAFA;">
+              <h5 class="card-title fw-bold mb-4">الأكثر تنويعا
+              </h5>
+              <p class="small-paragraph-font-gray card-text">
+              تمكنك دراية من الاستثمار في أكثر من 60 منتج استثماري من 10 مدراء مختلفين. هذه المنتجات تستثمر في كافة الفئات الاستثمارية (كالأسهم والمكوك، والمرابحة إلخ) والأسواق كما يمكنك التداول في ما يزيد عن 1,200 من صناديق
+              المؤشرات المتداولة ETF
+              </p>
+            </div>
+          </div>
+
+          
+        </div> -->
+        </div>
+
+    </section>
+
+    <script>
+        var card_details = [{
+                id: 0,
+                card_header: "الأفضل مشورة",
+                card_paragraph: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia corporis velit repellendus aut iste molestiae consequuntur nam quisquam totam debitis, quasi vero eaque quam quo, illo eveniet. Deleniti error voluptatem minima cupiditate libero. Natus molestiae dolorem modi tempore aut in nostrum ducimus consequatur officiis accusamus dolores, laboriosam nesciunt culpa unde voluptatibus magni inventore illo a nihil! Exercitationem quo ipsum aspernatur, quaerat quas facilis culpa deleniti, excepturi, consectetur et sapiente optio vitae nesciunt. Vel optio porro magnam sunt quidem dolores est voluptates vero esse quis eius laborum veritatis, illum nemo quibusdam. Magnam est unde excepturi omnis. Ab molestias dolorum eum laborum quia reiciendis consequuntur nobis rem id culpa tempora alias provident quod consectetur officiis, temporibus asperiores, ut placeat maxime sint? Exercitationem dignissimos eos, quidem beatae cupiditate omnis voluptates voluptate ex asperiores doloribus. Nemo quam tempore animi obcaecati quod recusandae consectetur. Distinctio, natus! Iste quae sit consequatur, recusandae optio, officiis distinctio expedita asperiores fuga a aperiam saepe officia quam numquam aliquam minus voluptatem dolorem exercitationem laborum dolorum voluptatibus vel. Praesentium nesciunt laboriosam excepturi a vitae impedit magnam, eaque eos deserunt veniam consequuntur, molestiae dolore ratione tempora beatae labore mollitia, et iusto perferendis maiores doloribus sunt! Qui minus eius, et rerum, fugiat voluptates neque, molestias dolorem nobis minima laborum consequatur nesciunt doloremque repellendus ad odit possimus. Reprehenderit iure temporibus laudantium facilis dolorum, a assumenda incidunt sed explicabo facere at et quibusdam. Facere perspiciatis laborum quasi facilis maxime voluptatem dolores a earum ea omnis iste explicabo sequi sit, corrupti odio dignissimos veritatis rerum eligendi veniam? Quod possimus ut quis voluptatibus? Quae, quidem commodi. Error, quis, libero doloremque mollitia cumque reiciendis quae commodi numquam dignissimos quia doloribus earum eius perferendis! Omnis laboriosam unde repellat quae officia beatae nam nobis reprehenderit pariatur! Doloremque, itaque nesciunt, ipsum beatae iusto earum consequatur totam iure hic eum vero provident?",
+                card_icon: '<i class="fa-regular fa-star fa-2xl icon-border"></i>'
+            }, {
+                id: 1,
+                card_header: "الأكثر راحة",
+                card_paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, magnam nostrum natus quisquam delectus quibusdam beatae nihil vero nam repudiandae! Quibusdam eveniet necessitatibus sunt eaque at, atque amet eius neque. Accusamus similique, aspernatur, illum labore et commodi dicta architecto laboriosam, quos alias minima nam. Ullam repudiandae reiciendis fugit modi facilis placeat, ea totam dolore sint repellendus officiis inventore provident earum ipsa assumenda doloribus cum non amet distinctio. Dolores eligendi quidem, veniam voluptatum quos debitis. Sapiente reiciendis id optio ea ducimus atque voluptatibus dignissimos facilis nesciunt numquam vero omnis sit mollitia veritatis labore sed, velit dolores! Perspiciatis, in! Vitae numquam minima ipsum explicabo eveniet, cupiditate rem sed delectus ratione sapiente neque illum voluptatem aut praesentium quae aperiam qui similique aliquam quisquam. Quas blanditiis reiciendis quia, pariatur quis saepe, beatae minus quaerat veritatis ab itaque! Sunt tempore impedit accusantium, porro quia vel. Earum autem vel illum dolorem maxime assumenda, magni quia nobis ab unde nesciunt eveniet! Doloremque, ipsam velit? Porro ullam doloribus a odit quaerat commodi facere cum, repellat error, dicta iure inventore debitis illum sed voluptatum sapiente saepe ducimus rem quam! Explicabo eaque amet temporibus, itaque, qui reiciendis fugiat ipsa quae placeat harum non quo natus consectetur sapiente laboriosam sequi saepe, iusto numquam! Enim, reiciendis facilis? Hic esse quo cupiditate maiores natus iste quas? Libero obcaecati cupiditate cum voluptates, nemo illo ducimus molestias ex autem natus unde omnis quae? Iste libero dolorem tenetur necessitatibus tempora, optio, eius autem repellendus inventore eligendi neque aliquid nostrum debitis consequuntur dolores vitae quam incidunt ab maxime hic! Voluptas quisquam error, commodi ex esse vitae ducimus consectetur! Dolorem labore libero, quaerat quod, eaque eligendi aut voluptatibus animi eum natus, nostrum culpa odio incidunt alias quae dolore temporibus adipisci vel omnis unde quam officiis autem mollitia! Quibusdam culpa minima minus animi iste debitis eveniet maxime ipsum consectetur?",
+                card_icon: '<i class="fa-regular fa-face-smile fa-2xl icon-border"></i>'
+            }, {
+                id: 2,
+                card_header: "الأكثر تنويعا",
+                card_paragraph: "Lorem, ipsum dolor sit amet",
+                card_icon: '<i class="fa-solid fa-layer-group fa-2xl icon-border"></i>'
+            }, {
+                id: 3,
+                card_header: "وبلا تكلفة إضافية",
+                card_paragraph: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, sit. Quod veritatis nam, neque necessitatibus hic architecto autem dolorem aut numquam sunt laborum minus minima rem? Molestias, voluptatem, voluptate deleniti sequi quae itaque eum unde dicta quibusdam, ipsum nulla fuga ullam. Quis modi harum a facilis repellendus nostrum, doloremque sint quaerat officiis unde iusto, corporis aliquid eaque minima. Quidem, provident ex! Perspiciatis aperiam ut obcaecati quasi laudantium possimus nam maiores eveniet! Ad ea voluptates, reiciendis dolor modi et. Tempore beatae adipisci cum, quod, id mollitia, autem pariatur odio rem quibusdam doloremque. Expedita nisi laboriosam voluptatibus quaerat consectetur eius ut cupiditate aperiam amet hic. Nobis animi distinctio sequi id enim beatae molestias explicabo. Maiores facilis recusandae atque maxime ullam! Minus quam aliquid rem. Minima sunt nesciunt, suscipit quam inventore saepe ab?",
+                card_icon: '<i class="fa-solid fa-dollar-sign fa-2xl icon-border"></i>'
+            }, {
+                id: 4,
+                card_header: "الأكثر شفافية",
+                card_paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, voluptatem, quas neque impedit temporibus saepe ut unde repellendus veniam aliquid at provident, illo consequatur blanditiis voluptas libero maxime atque placeat aut illum necessitatibus? Minus aliquam mollitia aliquid ducimus delectus veritatis. Molestiae debitis corrupti dolore quod exercitationem magni perferendis, dicta nisi hic molestias, ut repellat reprehenderit eligendi accusamus similique qui cumque reiciendis quisquam aliquam, aliquid vitae sit. Ipsam et quod illum reprehenderit accusantium sunt dicta doloribus doloremque possimus hic ad, rem eaque in sed recusandae ea, velit adipisci earum cupiditate perspiciatis. Adipisci aspernatur numquam obcaecati debitis! Impedit, numquam. Sapiente dolorem, repudiandae aliquid iusto voluptate harum consequuntur. Eius esse recusandae similique, error cumque nam ut, at maiores officiis laborum, non velit pariatur reprehenderit aut. Repellat, quibusdam aliquid, ex in aspernatur atque delectus ducimus consequuntur tempora illum, quas neque beatae dignissimos corporis id.",
+                card_icon: '<i class="fa-solid fa-arrow-trend-up fa-2xl icon-border"></i>'
+            }, {
+                id: 5,
+                card_header: "الأكثر استقلالية",
+                card_paragraph: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit error, accusantium molestias ipsum amet harum pariatur eligendi sint repellat optio temporibus. Commodi nam voluptate accusamus, hic itaque expedita rem accusantium reprehenderit voluptatibus quibusdam corporis, quisquam quam! Ea fuga quos necessitatibus quis? Distinctio reprehenderit magnam fuga, vel voluptate at sapiente consequatur ad sed hic accusantium dolor dolorem veritatis mollitia quas tempora quia architecto suscipit rerum repellat iusto. Tenetur animi placeat, quod voluptatibus, necessitatibus dolorum adipisci praesentium omnis magni, sapiente neque vero aliquam expedita qui cumque ipsa quibusdam sit? Quasi id deserunt expedita debitis veniam! Expedita iusto, quia quod enim fugiat laboriosam odio corrupti, voluptatibus optio nulla perspiciatis quae suscipit culpa quidem placeat! Accusamus, repellendus. Odio labore assumenda incidunt minima natus sint esse amet! Nam quis fugit quas nobis similique dolorum voluptates deserunt asperiores voluptas. Expedita, ut veritatis voluptatem in facere voluptates?",
+                card_icon: '<i class="fa-regular fa-thumbs-up fa-2xl icon-border"></i>'
+            }]
+            // var second_row_card_details = []
+
+        var first_row = document.getElementById("row-1");
+        // var second_row = document.getElementById("row-2");
+
+
+
+        for (let i = 0; i < card_details.length; i++) {
+            var col = document.createElement("div");
+            col.classList = 'col-md-4';
+
+            var card_content = `<div data-index=${i} class="card border-light card-box-styling">
+            <div class="card-header p-0 no-border-style" style="margin: 0.5rem 1rem;">
+             ${card_details[i].card_icon}
+            </div>
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-4">${card_details[i].card_header} 
+              </h5>
+              <p class="small-paragraph-font-gray card-text">
+                ${card_details[i].card_paragraph} 
+                </p>
+               <button onclick="readMore(this)" type="button" class="btn theme-color text-white btn-toggler">Read more</button>
+            </div>
+          </div>`
+
+
+            first_row.insertAdjacentHTML('beforeend', card_content);
+
+            if (card_details[i].card_paragraph.length > 120) {
+                var text = document.getElementsByClassName("small-paragraph-font-gray card-text")
+                console.log(text[0])
+                console.log(card_details[i].card_paragraph.length)
+                for (var v = 0; v < text.length; v++) {
+                    text[v].innerText = text[v].innerText.substring(0, 120) + '...';
+                }
+            } else {
+                var my_buttons = document.getElementsByClassName("btn-toggler")
+                my_buttons[i].remove();
+            }
+
+
+            var my_cards = document.getElementsByClassName("card")
+
+
+        }
+
+        function readMore(e) {
+
+            console.log("inside i func " + idx);
+            var idx = e.parentElement.parentNode.getAttribute("data-index");
+            console.log("IM HERE readMore");
+            var popup = document.getElementById("mypopup")
+            popup.classList.remove("is-hidden");
+            popup.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+            document.getElementById("modal-title").innerHTML = card_details[idx].card_header;
+            document.getElementById("modal-paragraph").innerHTML = card_details[idx].card_paragraph;
+        }
+
+
+        var close_btn = document.getElementById('close-btn');
+        var close_icon = document.getElementById('closepopup')
+
+        close_btn.addEventListener('click', function(e) {
+            document.getElementById("mypopup").classList.add("is-hidden")
+            document.getElementById("mypopup").style.display = 'none'
+            document.body.style.overflow = 'scroll';
+        })
+        close_icon.addEventListener('click', function(e) {
+            document.getElementById("mypopup").classList.add("is-hidden")
+            document.getElementById("mypopup").style.display = 'none'
+            document.body.style.overflow = 'scroll';
+        })
+
+
+        var custom_para = document.getElementById("p-300")
+        if (custom_para.innerText.length > 300) {
+            custom_para.innerText = custom_para.innerText.substring(0, 300) + "..."
+        }
+
+        function switchToPurple() {
+            document.getElementById("container-id").style.backgroundColor = "#510B76";
+            document.getElementById("card-theme-color-1").style.backgroundColor = "#510B76";
+            document.getElementById("card-theme-color-2").style.backgroundColor = "#510B76";
+            document.getElementById("card-theme-color-3").style.backgroundColor = "#510B76";
+        }
+
+        function switchToGreen() {
+            document.getElementById("container-id").style.backgroundColor = "green";
+            document.getElementById("card-theme-color-1").style.backgroundColor = "green";
+            document.getElementById("card-theme-color-2").style.backgroundColor = "green";
+            document.getElementById("card-theme-color-3").style.backgroundColor = "green";
+        }
+    </script>
+</body>
+
+</html>

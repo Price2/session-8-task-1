@@ -1,0 +1,187 @@
+$theme-color-switch-g: green;
+$theme-color-switch-p: purple;
+* {
+    font-family: 'Cairo', sans-serif;
+}
+
+body {
+    direction: rtl;
+}
+
+@mixin section-seperation($margin-b:118px) {
+    margin-bottom: $margin-b
+}
+
+@mixin font-style($font-size:18px, $color:#16151A, $font-weight:normal) {
+    font-size: $font-size;
+    color: $color;
+    font-weight: $font-weight;
+}
+
+.theme-color {
+    background-color: #510B76;
+}
+
+.nav-items-font-size {
+    @include font-style(18px, #16151A)
+}
+
+.btns {
+    button {
+        &:nth-child(1) {
+            background: #510B76;
+            color: white;
+            // box-shadow: 0px 4px 20px #FFB802;
+            padding: 8px 24px;
+            border-radius: 24px;
+        }
+        &:nth-child(2) {
+            color: #121127;
+            font-size: 16px;
+            border: 1px solid rgba(18, 17, 39, 0.12);
+            border-radius: 24px;
+            padding: 8px 42px;
+        }
+    }
+}
+
+.small-paragraph-font {
+    @include font-style(16px, white)
+}
+
+.small-paragraph-font-b {
+    @include font-style(16px, black)
+}
+
+.small-paragraph-font-gray {
+    @include font-style(18px, gray)
+}
+
+.big-header-font-w {
+    @include font-style(56px, white, bold)
+}
+
+.sub-header-font-w {
+    @include font-style(20px, white)
+}
+
+.big-header-font-b {
+    @include font-style(40px, black)
+}
+
+section {
+    @include section-seperation(77px)
+}
+
+.image-style {
+    filter: grayscale(75%);
+    mix-blend-mode: normal;
+    box-shadow: 15px 15px 50px rgba(143, 81, 211, 0.1);
+    border-radius: 0px 0px 40px 0px;
+}
+
+// .drop-shadow-img {
+//     box-shadow: -60px 100px 0px -5px rgba(225, 217, 230, 0.3);
+//     border-radius: 20px;
+// }
+.card-border-top {
+    padding: 0.5rem 1rem;
+    margin-bottom: 59px;
+    background-color: #510B76;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    // background: #FAFAFA;
+}
+
+.card-box-styling {
+    width: 379px;
+    height: 426px;
+    background: #FFFFFF;
+    box-shadow: 15px 15px 50px rgba(143, 81, 211, 0.1);
+    border-radius: 30px;
+}
+
+.card-body-styling {
+    padding: 30px;
+    gap: 30px;
+}
+
+.icon-border {
+    color: #F58026;
+    border: 30px solid #FAF9F9;
+    border-radius: 15px;
+}
+
+.cards-shadow-wrapper {
+    width: 824px;
+    height: 962px;
+    background: #E1D9E6;
+    opacity: 0.2;
+    border-radius: 30px;
+    align-self: center;
+    margin-bottom: -931px;
+    position: relative;
+}
+
+@keyframes glowing {
+    0% {
+        box-shadow: 0 0 -10px red;
+    }
+    40% {
+        box-shadow: 0 0 20px red;
+    }
+    60% {
+        box-shadow: 0 0 20px red;
+    }
+    100% {
+        box-shadow: 0 0 -10px red;
+    }
+}
+
+.button-glow {
+    animation: glowing 5000ms infinite;
+}
+
+.custom-shadow {
+    position: relative;
+    width: 332px;
+    height: 326px;
+    background: #E1D9E6;
+    opacity: 0.3;
+    border-radius: 20px;
+    z-index: -1;
+    margin-top: -259px;
+    margin-right: 169px;
+}
+
+.no-border-style {
+    border: 0px;
+    background-color: white;
+}
+
+.mypopup {
+    position: fixed;
+    display: block;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: auto;
+}
+
+.mypopup-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border-radius: 4px;
+    max-width: fit-content;
+    height: 450px;
+}
+
+.is-hidden {
+    display: none;
+}
