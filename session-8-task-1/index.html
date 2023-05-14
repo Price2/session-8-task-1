@@ -166,7 +166,7 @@
         </div>
         <div class="row mb-5 justify-content-center gap-5" id="row-1">
             <div id="mypopup" class="mypopup is-hidden">
-                <div class="mypopup-content">
+                <div id="mypopup-id" class="mypopup-content">
                     <span id="closepopup" class="Close">&times;</span>
                     <h2 id="modal-title"></h2>
                     <p id="modal-paragraph"></p>
@@ -307,19 +307,24 @@
         }
 
 
-        var close_btn = document.getElementById('close-btn');
-        var close_icon = document.getElementById('closepopup')
+        // var close_btn = document.getElementById('close-btn');
+        // var close_icon = document.getElementById('closepopup')
+        var close_parent = document.getElementById('mypopup-id')
 
-        close_btn.addEventListener('click', function(e) {
-            document.getElementById("mypopup").classList.add("is-hidden")
-            document.getElementById("mypopup").style.display = 'none'
-            document.body.style.overflow = 'scroll';
-        })
-        close_icon.addEventListener('click', function(e) {
-            document.getElementById("mypopup").classList.add("is-hidden")
-            document.getElementById("mypopup").style.display = 'none'
-            document.body.style.overflow = 'scroll';
-        })
+        close_parent.addEventListener('click', function(e) {
+                if (e.target.id == 'close-btn' || e.target.id == 'closepopup') {
+                    document.getElementById("mypopup").classList.add("is-hidden")
+                    document.getElementById("mypopup").style.display = 'none'
+                    document.body.style.overflow = 'scroll';
+                }
+
+
+            })
+            // close_icon.addEventListener('click', function(e) {
+            //     document.getElementById("mypopup").classList.add("is-hidden")
+            //     document.getElementById("mypopup").style.display = 'none'
+            //     document.body.style.overflow = 'scroll';
+            // })
 
 
         var custom_para = document.getElementById("p-300")
